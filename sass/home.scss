@@ -5,6 +5,98 @@
 
 @import "compass/reset";
 @import "compass/css3";
-a{
-	color:red;
+/*--------------base style-----------*/
+.clear{
+    clear:both;
 }
+.fl{
+    float:left;
+}
+.fr{
+    float:right;
+}
+.box_shadow1{
+	@include single-box-shadow(rgba(0,0,0,.2),0,0,5px,0);
+}
+.box_shadow2{
+    @include single-box-shadow(rgba(0,0,0,.4),0,0,15px,0);
+}
+.box_gradient1{
+	@include background(linear-gradient(top left,#f96a6a,red));
+}
+a.test { font-weight: bold; }
+.umeng-header{
+    background:#4963A4;
+}
+/*--------------base style-----------*/
+/*--------------var-----------*/
+$color1:#BACDEE;
+$color2:#E7EFFE;
+$color3:#378d00;
+$color4:#646464;
+$size0:5px;
+$size1:10px;
+$size2:1px;
+$height1:80px;
+$height2:87px;
+$fontSize0:9px;
+$fontSize1:15px;
+$fontSize2:25px;
+/*--------------base style-----------*/
+.umeng-grid-b {
+	.umeng-bar{
+	    border-radius:5px;
+	    margin:$size1;
+	    height:$height1;
+	    background:#E7EFFE;
+	    border:$size2 solid $color1;
+	    text-align:center;
+	    .umeng-bar-table{
+	    	 border-top: $size2 solid $color1;
+			 margin-top:$size1;
+			 div{
+			 	margin-top:$size1;
+			 	span:nth-of-type(2){
+			 		color:$color3;
+			 	}
+			 }
+	    }
+	}
+}
+.umeng-listview li{
+    
+}
+.umengapp_content{
+  padding:0 $size1;
+ .app_list{
+    position:absolute;top:20%;width:100%;margin-left:5px;
+  }
+  .umeng-listview{
+    
+    border:1px solid $color1;
+    li{ 
+    	height:87px;
+    	background:white;
+    	border-bottom:1px solid $color1;
+    	&:last-child{
+    		border:none;
+    	}
+    	.app_list {
+    		.app_name{
+    			font-size:$fontSize1;
+    			margin-left:0px;
+    		}
+    		.app_newers_count{
+    			margin-left:5%;
+    			font-size:$fontSize2;
+    		}
+    		.app_newers_content{
+    			margin-left:2px;
+    			font-size:$fontSize0;
+    			color:$color4;
+    		}
+    	}
+    }
+  }
+}
+

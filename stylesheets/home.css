@@ -67,7 +67,120 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
   display: block;
 }
 
-/* line 8, ../sass/home.scss */
-a {
-  color: red;
+/*--------------base style-----------*/
+/* line 9, ../sass/home.scss */
+.clear {
+  clear: both;
+}
+
+/* line 12, ../sass/home.scss */
+.fl {
+  float: left;
+}
+
+/* line 15, ../sass/home.scss */
+.fr {
+  float: right;
+}
+
+/* line 18, ../sass/home.scss */
+.box_shadow1 {
+  -webkit-box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.2);
+  -moz-box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.2);
+  box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.2);
+}
+
+/* line 21, ../sass/home.scss */
+.box_shadow2 {
+  -webkit-box-shadow: 0 0 15px 0 rgba(0, 0, 0, 0.4);
+  -moz-box-shadow: 0 0 15px 0 rgba(0, 0, 0, 0.4);
+  box-shadow: 0 0 15px 0 rgba(0, 0, 0, 0.4);
+}
+
+/* line 24, ../sass/home.scss */
+.box_gradient1 {
+  background: -webkit-gradient(linear, 0% 0%, 100% 100%, color-stop(0%, #f96a6a), color-stop(100%, #ff0000));
+  background: -webkit-linear-gradient(top left, #f96a6a, #ff0000);
+  background: -moz-linear-gradient(top left, #f96a6a, #ff0000);
+  background: -o-linear-gradient(top left, #f96a6a, #ff0000);
+  background: -ms-linear-gradient(top left, #f96a6a, #ff0000);
+  background: linear-gradient(top left, #f96a6a, #ff0000);
+}
+
+/* line 27, ../sass/home.scss */
+a.test {
+  font-weight: bold;
+}
+
+/* line 28, ../sass/home.scss */
+.umeng-header {
+  background: #4963A4;
+}
+
+/*--------------base style-----------*/
+/*--------------var-----------*/
+/*--------------base style-----------*/
+/* line 47, ../sass/home.scss */
+.umeng-grid-b .umeng-bar {
+  border-radius: 5px;
+  margin: 10px;
+  height: 80px;
+  background: #E7EFFE;
+  border: 1px solid #bacdee;
+  text-align: center;
+}
+/* line 54, ../sass/home.scss */
+.umeng-grid-b .umeng-bar .umeng-bar-table {
+  border-top: 1px solid #bacdee;
+  margin-top: 10px;
+}
+/* line 57, ../sass/home.scss */
+.umeng-grid-b .umeng-bar .umeng-bar-table div {
+  margin-top: 10px;
+}
+/* line 59, ../sass/home.scss */
+.umeng-grid-b .umeng-bar .umeng-bar-table div span:nth-of-type(2) {
+  color: #378d00;
+}
+
+/* line 69, ../sass/home.scss */
+.umengapp_content {
+  padding: 0 10px;
+}
+/* line 71, ../sass/home.scss */
+.umengapp_content .app_list {
+  position: absolute;
+  top: 20%;
+  width: 100%;
+  margin-left: 5px;
+}
+/* line 74, ../sass/home.scss */
+.umengapp_content .umeng-listview {
+  border: 1px solid #bacdee;
+}
+/* line 77, ../sass/home.scss */
+.umengapp_content .umeng-listview li {
+  height: 87px;
+  background: white;
+  border-bottom: 1px solid #bacdee;
+}
+/* line 81, ../sass/home.scss */
+.umengapp_content .umeng-listview li:last-child {
+  border: none;
+}
+/* line 85, ../sass/home.scss */
+.umengapp_content .umeng-listview li .app_list .app_name {
+  font-size: 15px;
+  margin-left: 0px;
+}
+/* line 89, ../sass/home.scss */
+.umengapp_content .umeng-listview li .app_list .app_newers_count {
+  margin-left: 5%;
+  font-size: 25px;
+}
+/* line 93, ../sass/home.scss */
+.umengapp_content .umeng-listview li .app_list .app_newers_content {
+  margin-left: 2px;
+  font-size: 9px;
+  color: #646464;
 }

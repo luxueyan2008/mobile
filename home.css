@@ -3,7 +3,7 @@
     background:#4963A4;
     border
 }
-.ui-grid-b .ui-bar{
+.umeng-grid-b .umeng-bar{
     border-radius:5px;
     margin:10px;
     height:80px;
@@ -11,14 +11,14 @@
     border:1px solid #BACDEE;
     text-align:center;
 }
-.ui-grid-b .ui-bar .ui-bar-table{
+.umeng-grid-b .umeng-bar .umeng-bar-table{
     border-top: 1px solid #BACDEE;
     margin-top:10px;
 }
-.ui-grid-b .ui-bar .ui-bar-table div{
+.umeng-grid-b .umeng-bar .umeng-bar-table div{
     margin-top:10px;
 }
-.ui-grid-b .ui-bar .ui-bar-table div span:nth-of-type(2){
+.umeng-grid-b .umeng-bar .umeng-bar-table div span:nth-of-type(2){
     color:#378D00;
 }
 .clear{
@@ -48,7 +48,7 @@
     background:-moz-linear-gradient(#F96A6A, red);
     background:inear-gradient(#F96A6A, red);
 }
-.ui-listview li{
+.umeng-listview li{
     height:87px;
     background:white;
 }
@@ -59,14 +59,14 @@
     position:absolute;top:20%;width:100%;margin-left:5px;
     
 }
-.umengapp_content .ui-listview{
+.umengapp_content .umeng-listview{
     -webkit-border-radius:0;
     -ms-border-radius:0;
     -moz-border-radius:0;
     border-radius:0;
     border:1px solid #BACDEE;
 }
-.umengapp_content .ui-listview li{
+.umengapp_content .umeng-listview li{
     -webkit-border-radius:0;
     -moz-border-radius:0;
     -ms-border-radius:0;
@@ -74,7 +74,7 @@
     border:none;
     border-bottom:1px solid #BACDEE;
 }
-.umengapp_content .ui-listview li:last-child{
+.umengapp_content .umeng-listview li:last-child{
     border:none;
 }
 .umengapp_content .app_list .app_name{
@@ -117,6 +117,6 @@
 .appstatus-c{
     background:#EB2701;
 }
-.umengapp_content .ui-icon{
+.umengapp_content .umeng-icon{
     display:none;
 }
